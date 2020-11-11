@@ -65,7 +65,7 @@ extern "C" {
 #endif
 /* *INDENT-ON* */
 
-lxw_sst *lxw_sst_new();
+lxw_sst *lxw_sst_new(void);
 void lxw_sst_free(lxw_sst *sst);
 int32_t lxw_get_sst_index(lxw_sst *sst, const char *string);
 void lxw_sst_assemble_xml_file(lxw_sst *self);
